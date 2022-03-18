@@ -1,0 +1,54 @@
+html,
+body,
+#app{
+    height: 100% !important;
+    margin: 0;
+    padding: 0;
+    min-width: 1366px;
+}
+.el-card{
+    box-shadow: 0 1px 1px rgba(0,0,0,0.15) !important;
+}
+.el-main{
+    padding: 0 !important;
+}
+.el-tag + .el-tag {
+    margin-left: 10px;
+  }
+  .button-new-tag {
+    margin-left: 10px;
+    height: 32px;
+    line-height: 30px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .input-new-tag {
+    width: 90px;
+    margin-left: 10px;
+    vertical-align: bottom;
+  }
+  .footer_wrap_box p{
+    text-align: center;
+  }
+  .study_type a{
+    flex: 1;
+    text-align: center;
+    color:rgba(170, 162, 162, 0.966);
+  }
+  .study_type a:hover{
+    color: rgb(82, 75, 75);
+  }
+  .study_type{
+    display: flex;
+  }
+  .footer_wrap_box{
+    margin: 50px auto;
+    padding: 15px;
+    width: 70%;
+  }
+  /* .el-dialog__header ,
+  .el-dialog__body,
+  .el-dialog__footer{
+    background-image: linear-gradient(to left,#d3959b,#bfe6ba) !important;
+  
+  } */
